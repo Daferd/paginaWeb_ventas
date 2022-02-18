@@ -1,0 +1,21 @@
+.fondo-gracias{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo-form.jpg);
+    background-size: cover;
+}
+.gracias{
+    font-family: 'Permanent Marker', cursive;
+    padding: 50px;
+    border: 5px solid white;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+
+
+

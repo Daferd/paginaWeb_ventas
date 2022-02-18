@@ -1,0 +1,64 @@
+/*General*/
+
+footer h4{
+	color: #a71777;
+}
+/*Mnsajes*/
+.fondo-form{
+    background-color: red;
+    background-image: url(../img/fondo-form.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+a:link, a:visited, a:active{
+    color: #a71777;
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: 1px 1px 10px #360727;
+}
+body{
+    background: white;
+    background: linear-gradient( to right, #360727,#a71777)
+}
+.contact-form input:focus {
+	box-shadow: none;
+	border: 1px solid #eee;
+}
+
+.contact-form textarea {
+	font-size: 14px;
+	width: 100%;
+	min-width: 100%;
+	min-height: 120px;
+	height: 120px;
+	max-height: 180px;
+	border: 1px solid #eee;
+	border-radius: 0px;
+	margin-bottom: 30px;
+}
+
+.contact-form textarea:focus {
+	box-shadow: none;
+	border: 1px solid #eee;
+}
+.contact-form button.filled-button {
+	background-color: #a71777;
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 300;
+	padding: 10px 20px;
+    margin-bottom: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: all 0.3s;
+	border: none;
+	outline: none;
+	cursor: pointer;
+    width: 120px;
+}

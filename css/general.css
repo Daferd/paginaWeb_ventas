@@ -1,0 +1,69 @@
+/*Header*/
+header img{
+    width: 40px;
+    height: 40px;
+}
+header img:hover{
+    transform: rotate(360deg);
+    transition: 100ms linear;
+}
+/*body*/
+a{
+    text-decoration: none;
+}
+
+/*footer*/
+footer h4{
+	color: #a71777;
+    padding: 0;
+    margin: 0;
+}
+.logo-footer:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.1s linear; 
+}
+.logo-footer{
+    transition: 0.1s linear; 
+}
+
+.top1,.top2,.top3{
+    position: absolute;
+    z-index: 10;
+}
+.top{
+    z-index: 20;
+    position: relative;
+    transition: 0.2s linear; 
+}
+
+.top:hover{
+    opacity: 0;
+    transition: 0.2s linear; 
+}
+.redes img{
+    width: 50px;
+    height: 50px;
+}
+
+/*para el espacio a la derecha*/
+div.row{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+li{
+    list-style: none;
+    position: relative;
+    right: 0;
+}
+article.card{
+    color:white;
+    background-color: #a71777;;
+    text-shadow: 1px 1px 1px gray;
+}
+
+/*
+@media screen and (max-width: 750px){
+    .movil-res{
+        display: none;
+    }
+}*/
